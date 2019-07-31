@@ -1,1 +1,2 @@
+keyboard==0.13.3
 pywin32==224
