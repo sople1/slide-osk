@@ -13,6 +13,10 @@ class App(Tk):
         # self.btn.grid(row=1, column=1)
         self.btn.pack(padx=50, pady=50)
 
+        self.btn2 = Button(self, text="ㅜ", width=10, takefocus=0, command=self.press_key2)
+        # self.btn.grid(row=1, column=1)
+        self.btn2.pack(padx=50, pady=50)
+
         self.title('keyboard')
         self.focusmodel(model=None)
         self.attributes("-toolwindow", True)
@@ -22,13 +26,16 @@ class App(Tk):
         self.bind("<FocusOut>", self.app_lost_focus)
 
     def app_got_focus(self, event):
-        self.config(background="red")
+        self.config(background="yellow")
 
     def app_lost_focus(self, event):
         self.config(background="grey")
 
     def press_key(self):
-        keyboard.send("a,b")
+        keyboard.write("ㄱ")
+
+    def press_key2(self):
+        keyboard.write("ㅜ")
 
 
 if __name__ == '__main__':
