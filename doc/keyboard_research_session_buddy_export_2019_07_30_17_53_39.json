@@ -1,4 +1,4 @@
-﻿﻿{
+﻿{
    "tabs": [
       {
          "active": false,
@@ -6,9 +6,9 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "https://www.google.com/favicon.ico",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 10172,
+         "id": 11928,
          "incognito": false,
          "index": 0,
          "mutedInfo": {
@@ -20,7 +20,7 @@
          "title": "on screen keyboard github - Google 검색",
          "url": "https://www.google.com/search?q=on+screen+keyboard+github&ei=w2o-XdmtFa-Ur7wPh-ei8AE&start=10&sa=N&ved=0ahUKEwiZm83EmtnjAhUvyosBHYezCB4Q8tMDCIwB&biw=1752&bih=1030",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
@@ -28,9 +28,9 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "https://github.githubassets.com/favicon.ico",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 10300,
+         "id": 11929,
          "incognito": false,
          "index": 1,
          "mutedInfo": {
@@ -42,7 +42,7 @@
          "title": "openkeyboard/vWindow.cs at e51b3d9dbead31af3456cfcc8e134eb6c304c793 · sketchpunk/openkeyboard",
          "url": "https://github.com/sketchpunk/openkeyboard/blob/e51b3d9dbead31af3456cfcc8e134eb6c304c793/vWindow.cs",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
@@ -50,9 +50,9 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "https://www.google.com/favicon.ico",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 11177,
+         "id": 11930,
          "incognito": false,
          "index": 2,
          "mutedInfo": {
@@ -64,7 +64,7 @@
          "title": "WS_EX_NOACTIVATE tkinter - Google 검색",
          "url": "https://www.google.com/search?safe=vss&ei=OfI_XZ6LLam1mAWPnKGACg&q=WS_EX_NOACTIVATE+tkinter&oq=WS_EX_NOACTIVATE+tkinter&gs_l=psy-ab.3...4730.6608..6927...0.0..0.154.923.1j7......0....1..gws-wiz.......0j0i30j33i160j33i10.-sgc7wcdeno&ved=0ahUKEwjei8buj9zjAhWpGqYKHQ9OCKAQ4dUDCAo&uact=5",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
@@ -72,9 +72,9 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 11180,
+         "id": 11931,
          "incognito": false,
          "index": 3,
          "mutedInfo": {
@@ -86,7 +86,7 @@
          "title": "winapi - Using Python Tkinter: How to smoothly move and resize the non focusable window? - Stack Overflow",
          "url": "https://stackoverflow.com/questions/25602986/using-python-tkinter-how-to-smoothly-move-and-resize-the-non-focusable-window",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
@@ -94,9 +94,9 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "https://www.google.com/favicon.ico",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 11162,
+         "id": 11932,
          "incognito": false,
          "index": 4,
          "mutedInfo": {
@@ -108,7 +108,7 @@
          "title": "SetWindowLong python tk - Google 검색",
          "url": "https://www.google.com/search?ei=ivE_XYudFcqVr7wPs663mAU&q=SetWindowLong+python+tk&oq=SetWindowLong+python+tk&gs_l=psy-ab.3..33i21j33i160.54790.56142..56533...0.0..0.161.383.0j3......0....1..gws-wiz.......0i30.CeQLEKCuR00&ved=0ahUKEwiLivWaj9zjAhXKyosBHTPXDVMQ4dUDCAo&uact=5",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
@@ -116,9 +116,9 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "https://github.githubassets.com/favicon.ico",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 10347,
+         "id": 11933,
          "incognito": false,
          "index": 5,
          "mutedInfo": {
@@ -130,7 +130,29 @@
          "title": "openkeyboard/MainWindow.xaml.cs at master · sketchpunk/openkeyboard",
          "url": "https://github.com/sketchpunk/openkeyboard/blob/master/MainWindow.xaml.cs",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
+      },
+      {
+         "active": false,
+         "audible": false,
+         "autoDiscardable": true,
+         "discarded": false,
+         "favIconUrl": "https://github.githubassets.com/favicon.ico",
+         "height": 1072,
+         "highlighted": false,
+         "id": 11754,
+         "incognito": false,
+         "index": 6,
+         "mutedInfo": {
+            "muted": false
+         },
+         "pinned": false,
+         "selected": false,
+         "status": "complete",
+         "title": "openkeyboard/vKeyboard.cs at master · sketchpunk/openkeyboard",
+         "url": "https://github.com/sketchpunk/openkeyboard/blob/master/vKeyboard.cs",
+         "width": 1752,
+         "windowId": 11927
       },
       {
          "active": false,
@@ -138,11 +160,11 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "http://effbot.org/media/img/effbot.ico",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 11108,
+         "id": 11934,
          "incognito": false,
-         "index": 6,
+         "index": 7,
          "mutedInfo": {
             "muted": false
          },
@@ -152,7 +174,7 @@
          "title": "Toplevel Window Methods",
          "url": "http://effbot.org/tkinterbook/wm.htm#wm.Wm.wm_protocol-method",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
@@ -160,11 +182,11 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "https://www.google.com/favicon.ico",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 11118,
+         "id": 11935,
          "incognito": false,
-         "index": 7,
+         "index": 8,
          "mutedInfo": {
             "muted": false
          },
@@ -174,7 +196,7 @@
          "title": "python tk not to focus - Google 검색",
          "url": "https://www.google.com/search?ei=Eew_XbkJpomvvA_T_ZKAAQ&q=python+tk+not+to+focus&oq=python+tk+not+to+focus&gs_l=psy-ab.3...761001.805185..805369...1.0..0.138.2598.3j21......0....1..gws-wiz.....10..35i39j0i67j0i20i263j0i10j0i131j35i39i19j0j0i203j0i30j0i8i30j0i8i10i30j33i21j33i160.ArXUX00Q4ZU&ved=0ahUKEwj51dn-idzjAhWmxIsBHdO-BBAQ4dUDCAo&uact=5",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
@@ -182,11 +204,11 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "http://pythonstudy.xyz/favicon.png",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 11132,
+         "id": 11936,
          "incognito": false,
-         "index": 8,
+         "index": 9,
          "mutedInfo": {
             "muted": false
          },
@@ -196,18 +218,18 @@
          "title": "예제로 배우는 파이썬 프로그래밍 - Tkinter 이벤트",
          "url": "http://pythonstudy.xyz/python/article/122-Tkinter-%EC%9D%B4%EB%B2%A4%ED%8A%B8",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
          "audible": false,
          "autoDiscardable": true,
          "discarded": false,
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 11128,
+         "id": 11937,
          "incognito": false,
-         "index": 9,
+         "index": 10,
          "mutedInfo": {
             "muted": false
          },
@@ -217,7 +239,7 @@
          "title": "Web Study",
          "url": "http://zeroplus1.zc.bz/jh/web/main.php?id=174&category=ETC",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
@@ -225,11 +247,11 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 11183,
+         "id": 11938,
          "incognito": false,
-         "index": 10,
+         "index": 11,
          "mutedInfo": {
             "muted": false
          },
@@ -239,7 +261,7 @@
          "title": "Python 3.6 install win32api? - Stack Overflow",
          "url": "https://stackoverflow.com/questions/42370339/python-3-6-install-win32api",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
@@ -247,11 +269,11 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "https://github.githubassets.com/favicon.ico",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 11186,
+         "id": 11939,
          "incognito": false,
-         "index": 11,
+         "index": 12,
          "mutedInfo": {
             "muted": false
          },
@@ -261,7 +283,7 @@
          "title": "Releases · mhammond/pywin32",
          "url": "https://github.com/mhammond/pywin32/releases",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
       },
       {
          "active": false,
@@ -269,11 +291,11 @@
          "autoDiscardable": true,
          "discarded": false,
          "favIconUrl": "https://github.githubassets.com/favicon.ico",
-         "height": 1079,
+         "height": 1072,
          "highlighted": false,
-         "id": 11192,
+         "id": 11940,
          "incognito": false,
-         "index": 12,
+         "index": 13,
          "mutedInfo": {
             "muted": false
          },
@@ -283,7 +305,118 @@
          "title": "mhammond/pywin32: Python for Windows (pywin32) Extensions",
          "url": "https://github.com/mhammond/pywin32",
          "width": 1752,
-         "windowId": 11196
+         "windowId": 11927
+      },
+      {
+         "active": false,
+         "audible": false,
+         "autoDiscardable": true,
+         "discarded": false,
+         "favIconUrl": "https://pypi.org/static/images/favicon.6a76275d.ico",
+         "height": 1072,
+         "highlighted": false,
+         "id": 11769,
+         "incognito": false,
+         "index": 14,
+         "mutedInfo": {
+            "muted": false
+         },
+         "pinned": false,
+         "selected": false,
+         "status": "complete",
+         "title": "keyboard · PyPI",
+         "url": "https://pypi.org/project/keyboard/",
+         "width": 1752,
+         "windowId": 11927
+      },
+      {
+         "active": false,
+         "audible": false,
+         "autoDiscardable": true,
+         "discarded": false,
+         "favIconUrl": "https://github.githubassets.com/favicon.ico",
+         "height": 1072,
+         "highlighted": false,
+         "id": 11772,
+         "incognito": false,
+         "index": 15,
+         "mutedInfo": {
+            "muted": false
+         },
+         "pinned": false,
+         "selected": false,
+         "status": "complete",
+         "title": "boppreh/keyboard: Hook and simulate global keyboard events on Windows and Linux.",
+         "url": "https://github.com/boppreh/keyboard",
+         "width": 1752,
+         "windowId": 11927
+      },
+      {
+         "active": false,
+         "audible": false,
+         "autoDiscardable": true,
+         "discarded": false,
+         "favIconUrl": "https://github.githubassets.com/favicon.ico",
+         "height": 1072,
+         "highlighted": false,
+         "id": 11900,
+         "incognito": false,
+         "index": 16,
+         "mutedInfo": {
+            "muted": false
+         },
+         "pinned": false,
+         "selected": false,
+         "status": "complete",
+         "title": "boppreh/keyboard: Hook and simulate global keyboard events on Windows and Linux.",
+         "url": "https://github.com/boppreh/keyboard#keyboard.write",
+         "width": 1752,
+         "windowId": 11927
+      },
+      {
+         "active": false,
+         "audible": false,
+         "autoDiscardable": true,
+         "discarded": false,
+         "favIconUrl": "https://github.githubassets.com/favicon.ico",
+         "height": 1072,
+         "highlighted": false,
+         "id": 11924,
+         "incognito": false,
+         "index": 17,
+         "mutedInfo": {
+            "muted": false
+         },
+         "pinned": false,
+         "selected": false,
+         "status": "complete",
+         "title": "bluedisk/hangul-toolkit: 한글 자모 분리/조합 작업을 위한 툴킷",
+         "url": "https://github.com/bluedisk/hangul-toolkit",
+         "width": 1752,
+         "windowId": 11927
+      },
+      {
+         "active": false,
+         "audible": false,
+         "autoDiscardable": true,
+         "discarded": false,
+         "favIconUrl": "https://github.githubassets.com/favicon.ico",
+         "height": 1072,
+         "highlighted": false,
+         "id": 11980,
+         "incognito": false,
+         "index": 18,
+         "mutedInfo": {
+            "muted": false
+         },
+         "openerTabId": 11924,
+         "pinned": false,
+         "selected": false,
+         "status": "complete",
+         "title": "rhobot/Hangulpy: Hangulpy - Python Module for Hangul. 한글파이 - 한글 관련 파이썬 모듈.",
+         "url": "https://github.com/rhobot/Hangulpy",
+         "width": 1752,
+         "windowId": 11927
       }
    ]
 }
