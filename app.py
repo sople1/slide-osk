@@ -1,3 +1,13 @@
+# !/usr/bin/env python
+# encoding: utf-8
+"""
+app.py
+
+launcher file for Slide-OSK
+
+(c) 2019 SnooeyNET
+"""
+
 from tkinter import *
 import win32api
 import win32con
