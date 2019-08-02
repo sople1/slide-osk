@@ -19,13 +19,15 @@ class App(Tk):
     def __init__(self, *args, **kwargs):
         Tk.__init__(self, *args, **kwargs)
 
-        self.btn = Button(self, text="ㄱ", width=10, takefocus=0, command=self.press_key)
+        self.btn = Button(self, text="ㄱ", width=10, takefocus=0)
+        self.btn.bind('<Button-1>', self.press_key)
+        self.btn.bind('<B1-Motion>', self.swipe_key)
         # self.btn.grid(row=1, column=1)
-        self.btn.pack(padx=50, pady=50)
+        self.btn.pack(padx=50, pady=20)
 
         self.btn2 = Button(self, text="ㅜ", width=10, takefocus=0, command=self.press_key2)
         # self.btn.grid(row=1, column=1)
-        self.btn2.pack(padx=50, pady=50)
+        self.btn2.pack(padx=50, pady=20)
 
         self.title('keyboard')
         self.focusmodel(model=None)
@@ -34,6 +36,7 @@ class App(Tk):
 
         self.bind("<FocusIn>", self.app_got_focus)
         self.bind("<FocusOut>", self.app_lost_focus)
+        self.bind("<Return>", self.handle_return)
 
     def app_got_focus(self, event):
         self.config(background="yellow")
@@ -41,11 +44,18 @@ class App(Tk):
     def app_lost_focus(self, event):
         self.config(background="grey")
 
-    def press_key(self):
+    def handle_return(self, event):
+        print(f"return: event.widget is {event.widget}")
+        print(f"focus is {self.focus_get()}")
+
+    def press_key(self, event):
         keyboard.write("ㄱ")
 
     def press_key2(self):
         keyboard.write("ㅜ")
+
+    def swipe_key(self, event):
+        print(f"position: {{{event.x}, {event.y}}}")
 
 
 if __name__ == '__main__':
