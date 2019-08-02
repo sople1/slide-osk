@@ -29,14 +29,10 @@ class App(Tk):
         # self.btn.grid(row=1, column=1)
         self.btn2.pack(padx=50, pady=20)
 
-        self.title('keyboard')
-        self.focusmodel(model=None)
-        self.attributes("-toolwindow", True)
-        self.attributes("-topmost", True)
-
-        self.bind("<FocusIn>", self.app_got_focus)
-        self.bind("<FocusOut>", self.app_lost_focus)
-        self.bind("<Return>", self.handle_return)
+        self.set_event()
+        self.set_window()
+        self.set_window_size()
+        self.set_window_position()
 
     def app_got_focus(self, event):
         self.config(background="yellow")
@@ -47,6 +43,25 @@ class App(Tk):
     def handle_return(self, event):
         print(f"return: event.widget is {event.widget}")
         print(f"focus is {self.focus_get()}")
+
+    def set_event(self):
+        self.bind("<FocusIn>", self.app_got_focus)
+        self.bind("<FocusOut>", self.app_lost_focus)
+        self.bind("<Return>", self.handle_return)
+
+    def set_window(self):
+        self.title('keyboard')
+        self.focusmodel(model=None)
+        self.attributes("-toolwindow", True)
+        self.attributes("-topmost", True)
+
+    def set_window_size(self):
+        width = self.winfo_screenwidth()
+        height = self.winfo_screenheight()
+        self.geometry('%sx%s' % (int(width/2), int(height/2)))
+
+    def set_window_position(self):
+        self.geometry('-%s-%s' % (5, 5))
 
     def press_key(self, event):
         keyboard.write("ㄱ")
