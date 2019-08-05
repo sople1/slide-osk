@@ -19,13 +19,13 @@ class App(Tk):
     def __init__(self, *args, **kwargs):
         Tk.__init__(self, *args, **kwargs)
 
-        self.btn = Button(self, text="ㄱ", width=10, takefocus=0)
+        self.btn = Button(self, text="ㄱ", width=10, height=10, takefocus=0)
         self.btn.bind('<Button-1>', self.press_key)
         self.btn.bind('<B1-Motion>', self.swipe_key)
         # self.btn.grid(row=1, column=1)
         self.btn.pack(padx=50, pady=20)
 
-        self.btn2 = Button(self, text="ㅜ", width=10, takefocus=0, command=self.press_key2)
+        self.btn2 = Button(self, text="ㅜ", width=10, height=10, takefocus=0, command=self.press_key2)
         # self.btn.grid(row=1, column=1)
         self.btn2.pack(padx=50, pady=20)
 
