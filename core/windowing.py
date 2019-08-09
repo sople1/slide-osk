@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 """
-launcher.py
+windowing.py
 
 launcher file for Slide-OSK
 
@@ -13,14 +13,18 @@ import win32con
 import pywintypes
 
 
-def run(app):
+def run(app: object) -> object:
+    return run_win32(app)
+
+
+def run_win32(app: object) -> object:
     app.lift()
 
     h_window = pywintypes.HANDLE(int(app.frame(), 16))
     ex_style = win32con.WS_EX_COMPOSITED | win32con.WS_EX_LAYERED | win32con.WS_EX_NOACTIVATE
     win32api.SetWindowLong(h_window, win32con.GWL_EXSTYLE, ex_style)
 
-    app.mainloop()
+    return app.mainloop()
 
 
 if __name__ == '__main__':

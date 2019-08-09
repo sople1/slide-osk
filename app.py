@@ -9,22 +9,20 @@ app root file for Slide-OSK
 """
 
 from tkinter import *
-import launcher
 import keyboard
+
+from core import windowing
+from core.ui_extender import *
 
 
 class App(Tk):
     def __init__(self, *args, **kwargs):
         Tk.__init__(self, *args, **kwargs)
 
-        self.btn = Button(self, text="ㄱ", width=10, height=10, takefocus=0)
-        self.btn.bind('<Button-1>', self.press_key)
-        self.btn.bind('<B1-Motion>', self.swipe_key)
-        # self.btn.grid(row=1, column=1)
+        self.btn = KeyButton(self, text="ㄱ", width=10, height=10, takefocus=0)
         self.btn.pack(padx=50, pady=20)
 
-        self.btn2 = Button(self, text="ㅜ", width=10, height=10, takefocus=0, command=self.press_key2)
-        # self.btn.grid(row=1, column=1)
+        self.btn2 = KeyButton(self, text="ㅜ", width=10, height=10, takefocus=0)
         self.btn2.pack(padx=50, pady=20)
 
         self.set_event()
@@ -61,15 +59,6 @@ class App(Tk):
     def set_window_position(self):
         self.geometry('-%s-%s' % (5, 5))
 
-    def press_key(self, event):
-        keyboard.write("ㄱ")
-
-    def press_key2(self):
-        keyboard.write("ㅜ")
-
-    def swipe_key(self, event):
-        print(f"position: {{{event.x}, {event.y}}}")
-
 
 if __name__ == '__main__':
-    launcher.run(App())
+    windowing.run(App())
