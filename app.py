@@ -1,17 +1,15 @@
-# !/usr/bin/env python
+#!/usr/bin/env python
 # encoding: utf-8
 """
 app.py
 
-launcher file for Slide-OSK
+app root file for Slide-OSK
 
 (c) 2019 SnooeyNET
 """
 
 from tkinter import *
-import win32api
-import win32con
-import pywintypes
+import launcher
 import keyboard
 
 
@@ -74,11 +72,4 @@ class App(Tk):
 
 
 if __name__ == '__main__':
-    root = App()
-    root.lift()
-
-    hWindow = pywintypes.HANDLE(int(root.frame(), 16))
-    exStyle = win32con.WS_EX_COMPOSITED | win32con.WS_EX_LAYERED | win32con.WS_EX_NOACTIVATE
-    win32api.SetWindowLong(hWindow, win32con.GWL_EXSTYLE, exStyle)
-
-    root.mainloop()
+    launcher.run(App())
