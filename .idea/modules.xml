@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/slide-osk.iml" filepath="$PROJECT_DIR$/.idea/slide-osk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/slosk.iml" filepath="$PROJECT_DIR$/.idea/slosk.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,5 @@
 =============================
-Slide-OSK
+SlOSK
 =============================
  :copyright: (c) SnooeyNET
  :license: MIT
@@ -9,7 +9,7 @@ Slide-OSK
 Summary
 =======
 
-On Screen Keyboard with Slide
+On Screen Keyboard with Slide-able
 
 Installation
 ============
