@@ -20,10 +20,10 @@ class App(Tk):
         Tk.__init__(self, *args, **kwargs)
 
         self.btn = KeyButton(self, text="ㄱ", width=10, height=10, takefocus=0)
-        self.btn.pack(padx=50, pady=20)
+        self.btn.pack(padx=20, pady=20)
 
         self.btn2 = KeyButton(self, text="ㅜ", width=10, height=10, takefocus=0)
-        self.btn2.pack(padx=50, pady=20)
+        self.btn2.pack(padx=20, pady=20)
 
         self.set_event()
         self.set_window()
