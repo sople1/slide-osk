@@ -20,6 +20,7 @@ class KeyButton(Button):
         self.text = kw["text"]
         if "key" in kw:
             self.key = kw["key"]
+            del kw["key"]
         else:
             self.key = self.text
 
